@@ -19,6 +19,9 @@ public class Student extends Enrollment implements StudentService {
 
     }
 
+    public Student() {
+    }
+
     public ArrayList<Enrollment> getEnrollments() {
         return enrollments;
     }
